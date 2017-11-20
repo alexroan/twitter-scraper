@@ -1,0 +1,8 @@
+{
+    "name": "alexroan/twitter-scraper",
+    "description": "Scrapes tweets from a user's profile",
+    "require": {
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    }
+}
+ 
