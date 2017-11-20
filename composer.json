@@ -1,6 +1,19 @@
 {
     "name": "alexroan/twitter-scraper",
+    "type": "library",
+    "version": "1.0.0",
     "description": "Scrapes tweets from a user's profile",
+    "keywords": ["twitter","scraping","tweets","scrape","scraper","webscraping"],
+    "homepage": "https://github.com/alexroan/twitter-scraper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Roan",
+            "email": "alex.roan@hotmail.com",
+            "homepage": "http://alexroan.co.uk",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "sunra/php-simple-html-dom-parser": "^1.5"
     }
