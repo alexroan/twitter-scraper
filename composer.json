@@ -1,7 +1,7 @@
 {
     "name": "alexroan/twitter-scraper",
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Scrapes tweets from a user's profile",
     "keywords": ["twitter","scraping","tweets","scrape","scraper","webscraping"],
     "homepage": "https://github.com/alexroan/twitter-scraper",
@@ -18,7 +18,7 @@
         "sunra/php-simple-html-dom-parser": "^1.5"
     },
     "autoload": {
-        "psr-0": { "alexroan\\TwitterScraper": "" }
+        "psr-0": { "alexroan\\TwitterScraper": "src/" }
     } 
 }
  
