@@ -1,7 +1,7 @@
 {
     "name": "alexroan/twitter-scraper",
     "type": "library",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "Scrapes tweets from a user's profile",
     "keywords": ["twitter","scraping","tweets","scrape","scraper","webscraping"],
     "homepage": "https://github.com/alexroan/twitter-scraper",
