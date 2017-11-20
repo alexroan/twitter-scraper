@@ -5,7 +5,7 @@ require_once "vendor/autoload.php";
 
 class TwitterScraper{
 
-	public static function get_feed($username){
+	static public function get_feed($username){
 		$tweet_results = [];
 		$html = \Sunra\PhpSimple\HtmlDomParser::file_get_html('http://twitter.com/' . $username);
 		if($html){			
@@ -105,7 +105,5 @@ class TwitterScraper{
 		return $tweet_results;
 	}
 }
-
-print_r(json_encode(TwitterScraper::get_feed('alexroan')));
 
 ?>
