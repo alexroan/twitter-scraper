@@ -11,7 +11,7 @@ composer require alexroan/twitter-scraper
 
 ```php
 //get feed
-$feed = Twitter_Scraper::get_feed('alex_roan');
+$feed = Twitter_Scraper::get_feed('alexroan');
 
 //loop through posts
 foreach($feed as $tweet){ 
