@@ -7,10 +7,10 @@ class TwitterScraper{
 
 	public static function get_feed($username){
 		$tweet_results = [];
-		$html = Sunra\PhpSimple\HtmlDomParser::file_get_html('http://twitter.com/' . $username);
+		$html = \Sunra\PhpSimple\HtmlDomParser::file_get_html('http://twitter.com/' . $username);
 		if($html){			
 			foreach($html->find('div[class=tweet]') as $tweet){
-				$tweet_result = new stdClass();
+				$tweet_result = new \stdClass();
 		
 				//tweet ID
 				$property = 'data-item-id';
@@ -105,5 +105,7 @@ class TwitterScraper{
 		return $tweet_results;
 	}
 }
+
+print_r(json_encode(TwitterScraper::get_feed('alexroan')));
 
 ?>

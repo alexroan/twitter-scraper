@@ -7,6 +7,13 @@ namespace Composer\Autoload;
 class ComposerStaticInit807e1d05648711ecaddd9598af40d03b
 {
     public static $prefixesPsr0 = array (
+        'a' => 
+        array (
+            'alexroan\\TwitterScraper' => 
+            array (
+                0 => __DIR__ . '/../..' . '/src',
+            ),
+        ),
         'S' => 
         array (
             'Sunra\\PhpSimple\\HtmlDomParser' => 
