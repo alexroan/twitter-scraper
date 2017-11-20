@@ -1,7 +1,9 @@
 <?php
+namespace alexroan;
+
 require_once "vendor/autoload.php";
 
-class Twitter_Scraper{
+class TwitterScraper{
 
 	public static function get_feed($username){
 		$tweet_results = [];
